@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Newbury Web Solutions</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />	
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" href="css/ie.css" type="text/css" charset="utf-8" />	
+	<![endif]-->
+</head>
+
+<body>
+	<div id="header">
+		<a href="index.html" id="logo"><img src="images/logo.jpg" alt="LOGO" /></a>
+		<div id="navigation">
+			<ul>
+				<li class="first"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="clients.html">Clients</a></li>
+				<li class="selected"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div id="search">
+			<form action="" method="">
+				<input type="text" value="Search" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+				<input type="submit" value="" class="button" />
+			</form>
+		</div>
+	</div> <!-- /#header -->
+	<div id="contents">
+		<div class="background">
+			<div id="contacts">
+				<p>
+					
+				</p>
+				<ul>
+					<li>
+						<p>
+							<b>NEWBURY WEB SOLUTIONS Pvt Ltd.</b>
+							98, Martingale Chase, Newbury,<br/>RG14 2ER<br/>United Kingdom<br/><br/>
+							Tel: +44-7429512900 <br/>
+							Tel: +44-1635-226063 <br/>
+							Email: contactus@newburywebsolutions.com
+						</p>
+					</li>
+				</ul>
+				   <style>
+      #map {
+        width: 500px;
+        height: 400px;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(51.406479, -1.31074),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map">Directions</div>
+			</div>
+		</div>
+	</div> <!-- /#contents -->
+	<div id="footer">
+		<ul class="contacts">
+			<h3>Contact Us</h3>
+			<li><span>Email</span><p>: company@email.com</p></li>
+			<li><span>Address</span><p>: 189 Lorem Ipsum Pellentesque, Mauris Etiam ut velit odio Proin id nisi enim 0000</p></li>
+			<li><span>Phone</span><p>: 117-683-9187-000</p></li>
+		</ul>
+		<ul id="connect">
+			<h3>Get Updated</h3>
+			<li><a href="http://facebook.com/newburywebsolutions" target="_blank">Facebook</a></li>
+		</ul>
+		<div id="newsletter">
+			<p><b>Sign-up for Newsletter</b>
+				Sign up here
+			</p>
+			<form action="" method="">
+				<input type="text" value="Name" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+				<input type="text" value="Enter Email Address" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+				<input type="submit" value="" class="button" />
+			</form>
+		</div>
+			<span class="footnote">&copy; Copyright Newbury Web Solutions, Newbury &copy; 2015. All rights reserved</span>
+	</div> <!-- /#footer -->
+</body>
+</html>
